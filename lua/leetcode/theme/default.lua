@@ -42,20 +42,20 @@ M.get = function()
         hint = { fg = hl("DiagnosticHint").fg },
         error = { fg = hl("DiagnosticError").fg },
 
-        case_ok = { fg = hl("DiagnosticOk").fg, bg = hl("Normal").bg, bold = true },
-        case_err = { fg = hl("DiagnosticError").fg, bg = hl("Normal").bg, bold = true },
+        case_ok = { fg = hl("DiagnosticOk").fg, bg = "None", bold = true },
+        case_err = { fg = hl("DiagnosticError").fg, bg = "None", bold = true },
 
         case_focus_ok = { bg = hl("DiagnosticOk").fg, fg = hl("NormalSB").bg, bold = true },
         case_focus_err = { bg = hl("DiagnosticError").fg, fg = hl("NormalSB").bg, bold = true },
 
-        normal = { fg = hl("Conceal").fg },
-        alt = { fg = hl("Comment").fg },
+        normal = { fg = hl("Conceal").fg, bg = "None" },
+        alt = { fg = hl("Comment").fg, bg = "" },
 
         italic = { italic = true },
         bold = { bold = true },
         underline = { underline = true },
 
-        code = { fg = hl("Type").fg, bg = hl("Normal").bg },
+        code = { fg = hl("Type").fg, bg = "None"},
         example = { fg = hl("DiagnosticHint").fg },
         constraints = { fg = hl("DiagnosticInfo").fg },
         header = { fg = hl("SpecialChar").fg, bold = true },
