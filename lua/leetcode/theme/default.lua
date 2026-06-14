@@ -49,7 +49,7 @@ M.get = function()
         case_focus_err = { bg = hl("DiagnosticError").fg, fg = hl("NormalSB").bg, bold = true },
 
         normal = { fg = hl("Conceal").fg, bg = "None" },
-        alt = { fg = hl("Comment").fg, bg = "" },
+        alt = { fg = hl("Comment").fg, bg = "None" },
 
         italic = { italic = true },
         bold = { bold = true },
